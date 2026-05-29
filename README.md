@@ -76,7 +76,7 @@ To uninstall, run:
 ./uninstall.sh --name demo --remove-logs
 ```
 
-Then delete the demo-related directories:
+Then, if and only if this was a demo run, delete the demo-related directories:
 
 ```shell
 rm -rf $HOME/pdf-workflow-demo
